@@ -1,0 +1,205 @@
+{% load static %}
+<!DOCTYPE HTML>
+<!--
+    Massively by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+    <head>
+        <title>Portfolio of Vaasu Jindal</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="{% static 'assets/css/main.css' %}" />
+        <noscript><link rel="stylesheet" href="{% static 'assets/css/noscript.css' %}" /></noscript>
+    </head>
+    <body class="is-preload">
+
+        <!-- Wrapper -->
+        <div id="wrapper" class="fade-in">
+
+            <!-- Intro -->
+            <div id="intro">
+                <h1><br />
+                Vaasu Jindal</h1>
+                <ul class="actions">
+                    <li><a href="#main" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+                </ul>
+            </div>
+
+            <!-- Nav -->
+            <nav id="nav">
+                <ul class="links">
+                    <li class="active"><a href="{% url 'index' %}">Home</a></li>
+                    <li><a href="#aboutme">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+                <ul class="icons">
+                    <!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li> -->
+                    <!-- <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
+                    <li><a href="https://www.instagram.com/highflyer2004?igsh=cXZycGx6ZjloNXph&utm_source=qr" class="icon brands alt fa-instagram"" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+                    <li><a href="https://github.com/healers2004" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+                </ul>
+            </nav>
+
+            <!-- Main -->
+            <div id="main">
+				
+				<!-- About Me -->
+				<section id="aboutme" class="major">
+					<header class="major">
+						<h2>About Me</h2>
+						<p>
+							Hey there. I'm Vaasu. I have been working on web development for the past couple of months while dabbling in AI and ML.
+							My hobbies include volleyball and badminton, while gaming whenever I can. I love playing fps games and after deranking in those I love it even more to play story mode ones.
+							My interests are robotics and astronomy.
+						</p>
+						<p>Technologies and languages I have worked with :</p>
+						<ul>
+							<li>Python</li>
+							<li>Java</li>
+							<li>C</li>
+							<li>Django</li>
+							<li>REST API</li>
+							<li>Flask</li>
+							<li>MkDocs</li>
+						</ul>
+					</header>
+				</section>
+
+
+                <!-- Projects -->
+                <section id="projects" class="major">
+                    <header class="major">
+                        <h2>My Projects</h2>
+                    </header>
+                    <div class="posts">
+                        <article>
+                            <header>
+                                <h3>Blog Post Application</h3>
+                                <p>This Django-based application enables users to create and publish blog posts, engage with comments, and conduct polls. It offers a straightforward interface for managing blog content and user interactions.</p>
+                            </header>
+                        </article>
+                        <article>
+                            <header>
+                                <h3>AI Chat Bot</h3>
+                                <p>A frontend application developed using Flask, designed to interact with ChatGPT for answering user questions. Currently in its early stages, this project aims to provide a seamless chat experience by leveraging advanced AI capabilities.</p>
+                            </header>
+                        </article>
+                        <article>
+                            <header>
+                                <h3>Text Based Facebook</h3>
+                                <p>Implemented in C, this project utilizes CSV files and linked lists to simulate social network functionalities. It allows users to manage their profiles, add or remove friends, and perform other social interactions in a text-based environment.</p>
+                            </header>
+                        </article>
+                        <article>
+                            <header>
+                                <h3>Tic Tac Toe Game</h3>
+                                <p>Built using Java, this game showcases object-oriented programming skills. It features a user-friendly interface, supports two-player gameplay, and includes a score-keeping system to track game results.</p>
+                            </header>
+                        </article>
+                        <article>
+                            <header>
+                                <h3>Data Analyzer</h3>
+                                <p>As the team lead, I directed a project utilizing Python and Matplotlib to create a data analysis tool. This application handles various data types, including student and employee directories, and performs data manipulation, sorting, and visualization through Matplotlib.</p>
+                            </header>
+                        </article>
+                    </div>
+                </section>
+
+                <!-- Experience -->
+                <section id="experience" class="major">
+                    <header class="major">
+                        <h2>My Experience</h2>
+                    </header>
+                    <div class="posts">
+                        <article>
+                            <header>
+                                <h3>Backend Web Developer Intern	(May - August 2024)</h3>
+								<h4>Kuwait Net</h4>
+                                <p>As an intern I learned web development skills and demonstrated my mastery by rebuilding the company's development documentation website using MK Docs.</p>
+                            </header>
+                        </article>
+                        <article>
+                            <header>
+                                <h3>Research Assistant ML	(June 2024 to present)</h3>
+                                <h4>Carleton University</h4>
+								<p>As a research assistant under my prof. we used convolutional neural networks to distinguish between the target and the background.</p>
+                            </header>
+                        </article>
+                        <article>
+                            <header>
+                                <h3>Software Engineering Fellow	(July 2024 to present)</h3>
+                                <h4>Headstarter</h4>
+								<p>As a part of this fellowship I will be developing multiple AI projects whilst heading a team of 4 and also networking with leaders of the field and influencers.</p>
+                            </header>
+                        </article>
+                    </div>
+                </section>
+
+                <!-- Education -->
+                <section id="education" class="major">
+                    <header class="major">
+                        <h2>My Education</h2>
+                    </header>
+                    <div class="posts">
+                        <article>
+                            <header>
+                                <h3>Computer Systems Engineering (September 2022 to present)</h3>
+                                <p>Carleton University</p>
+                            </header>
+                        </article>
+                    </div>
+                </section>
+
+                <!-- Footer -->
+                <footer id="footer">
+                    <div class="split contact">
+                        <section class="alt">
+                            <h3>Address</h3>
+                            <p>1233 Colonel By Drive<br />
+                            Ottawa, Canada</p>
+                        </section>
+                        <section>
+                            <h3>Phone</h3>
+                            <p><a href="tel:+18197433262">+1 (819) 743 3262</a></p>
+                        </section>
+                        <section>
+                            <h3>Email</h3>
+                            <p><a href="mailto:healers2004@gmail.com">healers2004@gmail.com</a></p>
+                        </section>
+                        <section>
+                            <h3>Social</h3>
+                            <ul class="icons alt">
+                                <!-- <li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li> -->
+                                <!-- <li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li> -->
+                                <li><a href="https://www.instagram.com/highflyer2004?igsh=cXZycGx6ZjloNXph&utm_source=qr" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+                                <li><a href="https://github.com/healers2004" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+                            </ul>
+                        </section>
+                    </div>
+                </footer>
+
+                <!-- Copyright -->
+                <div id="copyright">
+                    <ul><li>&copy; Vaasu Jindal</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Scripts -->
+        <script src="{% static 'assets/js/jquery.min.js' %}"></script>
+        <script src="{% static 'assets/js/jquery.scrollex.min.js' %}"></script>
+        <script src="{% static 'assets/js/jquery.scrolly.min.js' %}"></script>
+        <script src="{% static 'assets/js/browser.min.js' %}"></script>
+        <script src="{% static 'assets/js/breakpoints.min.js' %}"></script>
+        <script src="{% static 'assets/js/util.js' %}"></script>
+        <script src="{% static 'assets/js/main.js' %}"></script>
+
+    </body>
+</html>
